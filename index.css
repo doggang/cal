@@ -48,3 +48,22 @@ body{
     background-color: rgba(78, 16, 16, 0.568);
     cursor: pointer;
 }
+
+@media (max-width:1024px){
+    #cal{
+        position: relative;
+        left: 50%;
+        top: 30%;
+        width: 250px;
+        height: 350px;
+        margin-left: -125px;
+        margin-top: -175px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        background-color: rgb(240, 240, 240);
+    }
+    #value{
+        font-size: 14px;
+    }
+}
